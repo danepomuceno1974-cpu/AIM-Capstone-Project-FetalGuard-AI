@@ -1,0 +1,55 @@
+# CTG MLOps Configuration
+# All environment-specific settings live here — nothing hardcoded in source.
+
+model:
+  artifact_path: "deployment_artifact.pkl"
+  optimal_threshold: 0.10
+  name: "ctg-fetal-risk-classifier"
+  version: "1.0.0"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
+  log_level: "info"
+
+mlflow:
+  tracking_uri: "sqlite:///mlruns.db"  # local SQLite; swap for remote URI in prod
+  experiment_name: "ctg-fetal-risk"
+  register_model: true
+
+monitoring:
+  drift_check_interval_days: 30
+  min_recall_threshold: 0.85      # alert if recall drops below this in production
+  min_disparate_impact: 0.80      # alert if fairness metric drops below EEOC threshold
+
+data:
+  features:
+    - LB
+    - AC
+    - FM
+    - UC
+    - ASTV
+    - MSTV
+    - ALTV
+    - MLTV
+    - DL
+    - DS
+    - DP
+    - DR
+    - Width
+    - Min
+    - Max
+    - Nmax
+    - Nzeros
+    - Mode
+    - Mean
+    - Median
+    - Variance
+    - Tendency
+  top5_shap_features:
+    - ASTV
+    - AC
+    - Variance
+    - ALTV
+    - Width

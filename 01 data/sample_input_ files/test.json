@@ -1,0 +1,14 @@
+{
+  "fetal_movement": 0.3,
+  "uterine_contractions": 0.4,
+  "light_decelerations": 1,
+  "severe_decelerations": 0,
+  "prolongued_decelerations": 0,
+  "abnormal_short_term_variability_percentage": 18,
+  "mean_value_of_short_term_variability": 3.1,
+  "percentage_of_time_with_abnormal_long_term_variability": 2,
+  "mean_value_of_long_term_variability": 7.5,
+  "histogram_max": 145,
+  "histogram_variance": 25,
+  "histogram_tendency": 1
+}

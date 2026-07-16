@@ -1,0 +1,6 @@
+fetal_movement,uterine_contractions,light_decelerations,severe_decelerations,prolongued_decelerations,abnormal_short_term_variability_percentage,mean_value_of_short_term_variability,percentage_of_time_with_abnormal_long_term_variability,mean_value_of_long_term_variability,histogram_max,histogram_variance,histogram_tendency,class
+0.1,0.2,0,0,0,10,2.5,0,8.0,150,20,0,0
+0.3,0.4,1,0,0,18,3.1,2,7.5,145,25,1,1
+0.0,0.1,0,0,0,8,2.0,0,9.1,155,18,0,0
+0.5,0.6,2,1,0,25,4.2,6,6.3,140,30,1,1
+0.2,0.3,0,0,0,12,2.7,1,8.4,148,22,0,0

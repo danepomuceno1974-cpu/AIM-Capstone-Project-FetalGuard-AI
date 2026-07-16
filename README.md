@@ -1,1 +1,1 @@
-# AIM-Capstone-Project-FetalGuard-AI
+# AIM Capstone Project-FetalGuard AI

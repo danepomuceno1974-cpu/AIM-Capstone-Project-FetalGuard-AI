@@ -1,1 +1,8 @@
 # AIM Capstone Project-FetalGuard AI
+## **Beyond Accuracy: A Cost-Sensitive and Explainable AI Framework for Automated Early Detection of Fetal Distress**
+### **<u>Abstract</u>**
+Fetal distress is a critical obstetric emergency where delayed intervention can lead to severe neonatal morbidity or mortality. While machine learning models have been widely applied to Cardiotocography (CTG) data for classification, standard approaches often prioritize overall accuracy, inadvertently neglecting the asymmetric risks of false negatives (missed distress) versus false positives (unnecessary intervention). This project proposes a **Cost-Sensitive Machine Learning Framework** designed specifically to minimize the clinical cost of missed diagnoses.
+
+Unlike conventional studies that treat all errors equally, this research implements a **custom loss function** and **dynamic threshold optimization** that penalizes false negatives 10x more heavily than false positives. Furthermore, moving beyond the "black box" paradigm, we integrate **SHAP (SHapley Additive exPlanations)** to validate model decisions against established medical literature, ensuring that feature importance aligns with clinical intuition regarding uterine contractions and fetal heart rate variability. By combining **Stratified K-Fold Cross-Validation**, **SMOTE-NC** for robust imbalance handling, and an interactive **Streamlit dashboard** for adjustable sensitivity, this project delivers a deployable Decision Support System (DSS) that prioritizes patient safety over statistical metrics. Our results demonstrate that optimizing for **Recall** and **Clinical Cost** yields a more reliable tool for triage than standard accuracy-driven models.
+
+---

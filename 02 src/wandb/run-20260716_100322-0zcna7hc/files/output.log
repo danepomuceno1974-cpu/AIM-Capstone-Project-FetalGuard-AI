@@ -1,3 +1,0 @@
-Metrics: {'accuracy': 0.9243498817966903, 'precision': 0.7520661157024794, 'recall': 0.978494623655914, 'f1': 0.8504672897196262, 'roc_auc': 0.9880742913000977}
-Top 5 features: ['ASTV', 'AC', 'Mean', 'DP', 'MSTV']
-Run URL: https://wandb.ai/danepomuceno1974-none/FetalGuard%20AI/runs/0zcna7hc
